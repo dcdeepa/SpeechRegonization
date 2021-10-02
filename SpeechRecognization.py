@@ -1,3 +1,4 @@
+# this is a speech recognition project
 import speech_recognition as sr
 import webbrowser
 r = sr.Recognizer()
