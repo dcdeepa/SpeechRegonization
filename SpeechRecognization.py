@@ -1,6 +1,7 @@
 import speech_recognition as sr
 import webbrowser
 r = sr.Recognizer()
+# person will speak anything 
 with sr.Microphone() as source:
     print("Speak Anything...")
     audio = r.listen(source)
