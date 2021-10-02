@@ -7,6 +7,7 @@ with sr.Microphone() as source:
     try:
         text = r.recognize_google(audio)
         print("you said...",text)
+        # webbrowser will open acording to our search
         webbrowser.open('https://www.google.co.in/search?q='+text)
     except:
         print("Could not understand")
