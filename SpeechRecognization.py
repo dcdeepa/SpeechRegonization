@@ -2,7 +2,7 @@ import speech_recognition as sr
 import webbrowser
 r = sr.Recognizer()
 with sr.Microphone() as source:
-    print("Speak Anything...")
+    print("Speak Anything Clearly Which is Audible...")
     audio = r.listen(source)
     try:
         text = r.recognize_google(audio)
